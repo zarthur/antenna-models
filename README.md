@@ -4,10 +4,11 @@ Just some antenna modeling stuff
 
 ## Starting a PyNEC/JupyterLab Docker container
 
-The included `Dockerfile` can be used to start a container that builds
-the `PyNEC` Python module and runs JupyterLab.
+The included `Dockerfile` can be used to create a Docker image that
+includes `PyNEC` Python module. When run, the container starts a JupyterLab server.
 
-The following can be used to build and run the container:
+The following can be used to build the image and start a container with
+the `./notebooks` subdirectory as a mounted volume:
 
 ``` shell
 docker build -t USERNAME/jupyterlab-pynec .
