@@ -11,6 +11,7 @@ RUN apt update && apt install -y \
     python3-jupyterlab-server \
     python3-matplotlib \
     python3-numpy \
+    python3-pandas \
     python3-pip \
     python3-venv \
     swig \
